@@ -260,15 +260,6 @@ if (condicción)
 }
 
 
-Nota: Se recomienda usar ESLINT y Prettier dentro de tu entorno de trabajo
-
-// Nota (Sugerencia):  Consideramos que seria bueno añadir algo de información con relación a: 
-						- Eliminar duplicidad y codigo inutilizable 
-						- Convenciones de pruebas unitarias en react 
-						- Mantener los componentes siempre compactos 
-						- Emplear ESLint para linting
-
-
 
 ## Mantener los componentes siempre compactos
 
@@ -279,3 +270,11 @@ Una buena práctica para tener componentes legibles y compactos es evitar las de
 * Las funciones de utilidad que se utilicen en componentes de páginas diferentes, irán en la carpeta **📂utils** en el directorio 📂 src.
 * Evitar funciones o métodos muy extensos, aplicando en lo posible el concepto de extracción de métodos. Las nuevas funciones que resulten de este proceso deberán ir en la carpeta **📂 utils** correspondiente
 * Revisar si es posible y viable dividir el componente en componentes más pequeños
+
+Nota: Se recomienda usar ESLINT y Prettier dentro de tu entorno de trabajo
+
+// Nota (Sugerencia):  Consideramos que seria bueno añadir algo de información con relación a: 
+						- Eliminar duplicidad y codigo inutilizable 
+						- Convenciones de pruebas unitarias en react 
+						- Mantener los componentes siempre compactos 
+						- Emplear ESLint para linting
