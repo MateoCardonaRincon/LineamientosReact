@@ -267,3 +267,15 @@ Nota: Se recomienda usar ESLINT y Prettier dentro de tu entorno de trabajo
 						- Convenciones de pruebas unitarias en react 
 						- Mantener los componentes siempre compactos 
 						- Emplear ESLint para linting
+
+
+
+## Mantener los componentes siempre compactos
+
+La ventaja de tener componentes siempre compactos es la facilidad de su reutilización y mantenibilidad.
+Una buena práctica para tener componentes legibles y compactos es evitar las definiciones de funciones de utilidad en el mismo cuerpo del componente.
+
+* Se recomienda mover estas funciones de utilidad a la carpeta **📂utils** dentro del directorio de la página donde son usados.
+* Las funciones de utilidad que se utilicen en componentes de páginas diferentes, irán en la carpeta **📂utils** en el directorio 📂 src.
+* Evitar funciones o métodos muy extensos, aplicando en lo posible el concepto de extracción de métodos. Las nuevas funciones que resulten de este proceso deberán ir en la carpeta **📂 utils** correspondiente
+* Revisar si es posible y viable dividir el componente en componentes más pequeños
